@@ -1,0 +1,57 @@
+reactjs - frontend javascript library for building UI.
+SPA - single page application - 1 html page (index.html)
+
+components - any function or any class (.js file)
+
+virtual DOM - copy of real DOM 
+
+jsx - javascript + html 
+
+components - reusability 
+
+================================================================
+
+nodejs install -
+npm (node package manager) -  repo. 
+
+npx create-react-app react-basics
+
+
+<script>
+    "use strict"
+    let a=10
+</script>
+
+rules - 
+<br> => <br></br> or <br/>
+all html tags - small letters
+class => className 
+for - htmlFor
+
+
+components always in the pascal case or first letter capital 
+
+function Fun(){
+    let a=10
+    return (
+        <div>
+            <h1>Hello React</h1>
+            <h2>{a}</h2>
+        </div>
+    )
+}
+<Fun></Fun>
+
+
+Module -
+
+1. default -
+    export default packagename
+    import packagename from 'path'
+    we can change packagename while importing
+    in one page only one export default 
+2. named - 
+    export - export packagename
+    import - import {packagename1,packagename2,} from 'path'
+    we can not change name while import, we can give alias name.
+    in one page we can have more than one export  

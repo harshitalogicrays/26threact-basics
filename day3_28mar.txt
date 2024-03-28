@@ -1,0 +1,46 @@
+props -
+      <Propsdemo username="" address=""/>
+      properties - props 
+props are readonly      
+
+state  - hook -> useState
+useEffect 
+useCallback 
+useMemo
+useRef 
+useContext
+useReducer
+custom hook 
+etc.
+
+==================================
+
+
+events - camel case  
+onClick 
+
+
+===========================
+fragment -
+<React.Fragment></React.Fragment>
+<Fragment></Fragment> 
+<></> => shorthand of React.Fragment
+
+==========================================
+we can pass data from parent to child only as a props.
+state are private to that component and we can not send them directly to the children but using props we can pass parent state to the children
+
+
+conditions  -
+?: - ternary 
+&& - short circuit operator (simple if )
+
+
+list rendering - array fetch 
+let students=["",""]
+
+==============================================
+list rendering - table and card 
+form design 
+images 
+validations 

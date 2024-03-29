@@ -1,0 +1,15 @@
+validations 
+routing 
+redux 
+==================================================
+AddProduct.jsx -
+name 
+brand 
+category - select - toys, cloths, grocery, electronics 
+price - number 
+stock - number
+image - file upload 
+description - textarea 
+status - checkbox (active or inactive)
+submit button  
+

@@ -7,12 +7,17 @@ import Statedemo from './components/Statedemo';
 import { useState } from 'react';
 import Conditionrendering from './components/Conditionrendering';
 import Listrendering from './components/Listrendering';
-
+import Products from './components/Products';
+import ProductList from './components/ProductList';
+import image1 from './assets/images/a.jpg'
+import Register from './components/Register';
+import Login from './components/Login';
 function App() {
   // let a=10
   let [isLoggedIn,setIsLoggedIn]=useState(true)
   return (
-    <div className='App'>
+    <div className='container mt-5'>
+      {/* <img src={image1} /> */}
       {/* <h1 style={{color:'red',backgroundColor:'yellow'}}>Hello React</h1>
       <h3 className='text-primary' style={{background:'aqua'}}>javascript variable: {a}</h3>
 
@@ -37,7 +42,15 @@ function App() {
         
         <Conditionrendering checklogin={isLoggedIn} username="Saurabh"/> */}
 
-        <Listrendering/>
+        {/* <Listrendering/> */}
+
+        {/* <Products/> */}
+
+
+        {/* <ProductList/> */}
+
+        <Register/>
+        {/* <Login/> */}
     </div>
   );
 }

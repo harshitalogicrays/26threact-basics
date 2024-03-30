@@ -63,14 +63,14 @@ const Register = () => {
                 </form>
             </div>
         </div>
-            {JSON.stringify(user)}
+            {/* {JSON.stringify(user)}
 
 
             <div className='row'>
                 <div className='col-1 offset-1'>  <label className='col-form-label'>username</label></div>
                 <div className="col-6"><input className='form-control'></input></div>
                 
-            </div>
+            </div> */}
     </div>
 
 

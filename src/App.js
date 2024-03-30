@@ -12,11 +12,13 @@ import ProductList from './components/ProductList';
 import image1 from './assets/images/a.jpg'
 import Register from './components/Register';
 import Login from './components/Login';
+import FormValidations from './components/FormValidations';
+import { Outlet } from 'react-router-dom';
 function App() {
   // let a=10
   let [isLoggedIn,setIsLoggedIn]=useState(true)
   return (
-    <div className='container mt-5'>
+    <div>
       {/* <img src={image1} /> */}
       {/* <h1 style={{color:'red',backgroundColor:'yellow'}}>Hello React</h1>
       <h3 className='text-primary' style={{background:'aqua'}}>javascript variable: {a}</h3>
@@ -49,8 +51,13 @@ function App() {
 
         {/* <ProductList/> */}
 
-        <Register/>
+        {/* <Register/> */}
         {/* <Login/> */}
+
+        {/* <FormValidations/> */}
+
+        <Outlet/>
+
     </div>
   );
 }

@@ -1,0 +1,40 @@
+Regular expression -
+[a-z] - 1 char from the range (a to z)
+[A-Z]
+[0-9] => [\d]
+[a-zA-Z_]
+[a-zA-Z_0-9] => [\w]
+[987654] => [4-9]
+[\!\@\#\$\%\^\&\*]
+[a-zA-Z_0-9\!\@\#\$\%\^\&\*]
+\s => space 
+
+
+\@
+quantifiers -
+1. * => zero or more character
+2. + => 1 or more char
+3. ? => 0 or 1 char
+4. range - {min,max} => 
+
+[a-zA-Z_]+
+\@?
+[a-zA-Z_]*
+[a-zA-Z_]{3,4}
+
+
+/^[a-zA-Z]+$/
+
+/^[\d]{10}$/ => /^[0-9]{10}$/
+
+/^[a-zA-Z]+\s[a-zA-Z]+$/
+
+/^([\w\!\#\$\%\^\&\*\-\+\=\.]+s)\@([\w]+)\.([a-zA-Z]{2,3})$/
+
+
+1 uppercase , 1 lowercase , 1 digit , 1 special - min 6 max 20
+
+/^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[_\!\@\#\$\%\^\&\*\(\)\-\+\=\.]).{6,20}$/
+
+
+look ahead and look behind - ?=.*
